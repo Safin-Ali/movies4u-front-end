@@ -1,4 +1,17 @@
 @tailwind components;
 
 @layer components {
+
+	/* navigation styles start */
+	.sidebar-base{
+		@apply bg-nav-black h-screen overflow-y-scroll;
+	}
+
+	.l-side-items{
+		@apply gap-x-3 my-4 cursor-pointer hover:text-primary-text duration-[250ms];
+	}
+	.l-side-items-active{
+		@apply text-primary-text border-r-4 rounded border-primary-red duration-[250ms];
+	}
+	/* navigation styles end */
 }
