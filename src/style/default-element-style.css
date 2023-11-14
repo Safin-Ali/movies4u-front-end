@@ -1,0 +1,5 @@
+@tailwind base;
+
+@layer base {
+	body{ @apply bg-primary-bg-black scroll-smooth text-primary-grey;}
+}
