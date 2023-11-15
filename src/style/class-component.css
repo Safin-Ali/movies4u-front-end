@@ -9,11 +9,17 @@
 	.r-side-nav-prfl-sec{
 		@apply gap-x-3 my-[5%];
 	}
+	.search-feild-container{
+		@apply bg-primary-bg-black rounded-full py-2 px-[5%] justify-between;
+	}
 	.l-side-items{
 		@apply gap-x-3 my-4 cursor-pointer hover:text-primary-text duration-[250ms];
 	}
 	.l-side-items-active{
 		@apply text-primary-text border-r-4 rounded border-primary-red duration-[250ms];
+	}
+	.genre-btn{
+		@apply gap-x-0.5 py-1.5 rounded-full bg-primary-bg-black cursor-pointer hover:bg-primary-red duration-200 hover:text-primary-text;
 	}
 	/* navigation styles end */
 }
