@@ -6,7 +6,9 @@
 	.sidebar-base{
 		@apply bg-nav-black h-screen overflow-y-scroll;
 	}
-
+	.r-side-nav-prfl-sec{
+		@apply gap-x-3 my-[5%];
+	}
 	.l-side-items{
 		@apply gap-x-3 my-4 cursor-pointer hover:text-primary-text duration-[250ms];
 	}
