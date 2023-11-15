@@ -1,5 +1,27 @@
 @tailwind base;
 
 @layer base {
-	body{ @apply bg-primary-bg-black scroll-smooth text-primary-grey;}
+
+	/* width */
+	/* ::-webkit-scrollbar {
+		width: 4px;
+	} */
+
+	/* Track */
+	/* .scroll-trk::-webkit-scrollbar-track {
+			@apply;
+		} */
+
+	/* Handle */
+	/* ::-webkit-scrollbar-thumb {
+			@apply;
+		} */
+
+	input::placeholder {
+		@apply text-primary-grey;
+	}
+
+	body {
+		@apply bg-primary-bg-black scroll-smooth text-primary-grey overflow-hidden;
+	}
 }

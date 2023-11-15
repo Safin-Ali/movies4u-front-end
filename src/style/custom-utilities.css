@@ -13,21 +13,6 @@
 		@apply flex justify-center;
 	}
 
-	/* width */
-	::-webkit-scrollbar {
-		width: 4px;
-	}
-
-	/* Track */
-	/* .scroll-trk::-webkit-scrollbar-track {
-		@apply;
-	} */
-
-	/* Handle */
-	/* ::-webkit-scrollbar-thumb {
-		@apply;
-	} */
-
 	/* Hide scrollbar for Chrome, Safari and Opera */
 	.no-scrollbar::-webkit-scrollbar {
 		display: none;
