@@ -22,7 +22,7 @@ export interface UseArrExpandParams {
 export interface UseArrExpandReturn {
 	slicedArr:any[],
 	arrExpanded:boolean,
-	handleArr:(sliceNum?:number) => void,
+	handleArr:() => void,
 }
 
 //use component which need to only children prop
