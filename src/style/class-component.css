@@ -18,8 +18,14 @@
 	.l-side-items-active{
 		@apply text-primary-text border-r-4 rounded border-primary-red duration-[250ms];
 	}
+	/* navigation styles end */
+
+	/* button component style start */
+	.see-all-btn{
+		@apply hover:underline underline-offset-2;
+	}
 	.genre-btn{
 		@apply gap-x-0.5 py-1.5 rounded-full bg-primary-bg-black cursor-pointer hover:bg-primary-red duration-200 hover:text-primary-text;
 	}
-	/* navigation styles end */
+	/* button component style end */
 }

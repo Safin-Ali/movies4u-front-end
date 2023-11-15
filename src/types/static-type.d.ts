@@ -14,6 +14,12 @@ export interface ProfileInfoNavSec {
 	userFullName:string
 }
 
+// SeeAllBtn Component Props
+export interface SeeAllBtnProp {
+	children:React.ReactNode,
+	resFun:() => void;
+}
+
 // useArrExpand hooks params
 export interface UseArrExpandParams {
 	arr:any[],
