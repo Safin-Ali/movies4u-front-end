@@ -14,6 +14,17 @@ export interface ProfileInfoNavSec {
 	userFullName:string
 }
 
+// useArrExpand hooks params
+export interface UseArrExpandParams {
+	arr:any[],
+	initLeng:number,
+}
+export interface UseArrExpandReturn {
+	slicedArr:any[],
+	arrExpanded:boolean,
+	handleArr:(sliceNum?:number) => void,
+}
+
 //use component which need to only children prop
 export interface ReactChildren {
 	children:React.ReactNode
