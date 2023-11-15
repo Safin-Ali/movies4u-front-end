@@ -12,6 +12,17 @@
 	.d-h-center {
 		@apply flex justify-center;
 	}
+	.g-full-center {
+		@apply grid justify-center items-center;
+	}
+
+	.g-v-center {
+		@apply grid items-center;
+	}
+
+	.g-h-center {
+		@apply grid justify-center;
+	}
 
 	/* Hide scrollbar for Chrome, Safari and Opera */
 	.no-scrollbar::-webkit-scrollbar {

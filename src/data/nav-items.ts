@@ -115,7 +115,7 @@ export const genres = [
 	'music',
 	'mystery',
 	'romance',
-	'science fiction',
+	's fiction',
 	'thriller',
 	'war',
 	'western'
