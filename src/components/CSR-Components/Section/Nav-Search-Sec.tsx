@@ -1,7 +1,7 @@
 import React from 'react';
 import { LuSearch } from 'react-icons/lu';
 import { BsGridFill } from 'react-icons/bs';
-import { genres } from '@/data/nav-items';
+import { movieGenres } from '@/data/nav-items';
 import GenreBtn from '../Button/Genre-Btn';
 import useArrExpand from '@/hooks/useArrExpand';
 import SeeAllBtn from '../Button/See-All-Btn';
@@ -9,7 +9,7 @@ import SeeAllBtn from '../Button/See-All-Btn';
 export default function NavSearchSec() {
 
 	const { handleArr, slicedArr,arrExpanded } = useArrExpand({
-		arr: genres,
+		arr: Object.values(movieGenres),
 		initLeng: 6
 	});
 
