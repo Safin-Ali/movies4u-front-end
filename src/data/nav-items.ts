@@ -1,4 +1,4 @@
-import { SideNavOption } from '@/types/static-type';
+import { Genres, SideNavOption } from '@/types/static-type';
 import { IoSettingsSharp, IoHome } from 'react-icons/io5';
 import { FaDownload } from 'react-icons/fa';
 import { AiFillQuestionCircle } from 'react-icons/ai';
@@ -100,7 +100,7 @@ export const topNavItems = [
 ];
 
 // tv show genre collection
-export const tvShowGenres = {
+export const tvShowGenres:Genres = {
 	10759: 'Action & Adventure',
 	16: 'Animation',
 	35: 'Comedy',
@@ -120,7 +120,7 @@ export const tvShowGenres = {
 };
 
 // movie genre collection
-export const movieGenres = {
+export const movieGenres:Genres = {
 	28: 'Action',
 	12: 'Adventure',
 	16: 'Animation',

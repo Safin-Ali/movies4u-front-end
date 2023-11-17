@@ -20,6 +20,11 @@ export interface SeeAllBtnProp {
 	resFun:() => void;
 }
 
+// genres object data
+export interface Genres {
+	[key:number]: string
+}
+
 // useArrExpand hooks params
 export interface UseArrExpandParams {
 	arr:any[],
