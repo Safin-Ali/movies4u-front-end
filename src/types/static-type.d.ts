@@ -20,6 +20,15 @@ export interface SeeAllBtnProp {
 	resFun:() => void;
 }
 
+// MovieInfoCard Component Props
+export interface MovieInfoCard {
+	title:string,
+	poster_path:string,
+	id:number,
+	vote:number,
+	genresId:[number,number]
+}
+
 // genres object data
 export interface Genres {
 	[key:number]: string

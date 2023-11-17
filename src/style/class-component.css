@@ -28,4 +28,27 @@
 		@apply gap-x-0.5 py-1.5 rounded-full bg-primary-bg-black cursor-pointer hover:bg-primary-red duration-200 hover:text-primary-text;
 	}
 	/* button component style end */
+
+	/* card component style start */
+	.movie-info-card-cont{
+		@apply relative w-full overflow-hidden before:duration-300;
+	}
+	.movie-info-card-overlay{
+		@apply before:absolute before:w-full before:h-full before:bg-primary-bg-black/40 before:z-[9] before:inset-x-0;
+	}
+	.movie-info-card-banner{
+		@apply relative cursor-pointer after:content-[''] after:absolute after:left-1/2 after:top-1/2 after:border-b-[10px] after:border-t-[10px] after:border-r-[0px] after:border-l-[15px] after:border-[transparent_transparent_transparent_transparent] after:border-l-primary-text/80 before:absolute after:transform after:-translate-x-1/2 after:-translate-y-1/2 before:left-1/2 before:bg-primary-text/40  before:rounded-full before:top-1/2 before:transform before:-translate-x-[54%] before:-translate-y-1/2 before:w-[40px] before:p-5 before:z-[10] after:z-[10];
+	}
+	.movie-info-card-cart{
+		@apply absolute cursor-pointer right-[10%] top-[5%] bg-primary-text/20 text-primary-text/80 p-1 rounded-md z-[10];
+	}
+
+	.movie-info-card-footer{
+		@apply absolute duration-300 transition-all -bottom-10 opacity-0 invisible px-[5%] text-primary-text z-[10] w-full justify-between;
+	}
+	.movie-info-card-enter{
+		@apply bottom-[5%] visible opacity-100;
+	}
+
+	/* card component style end */
 }
