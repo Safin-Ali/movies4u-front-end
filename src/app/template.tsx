@@ -19,13 +19,13 @@ export default async function Template({
 			</div>
 
 			<main
-				className={ `col-span-9 text-center` }
+				className={ `col-span-12 lg:col-span-9 text-center` }
 			>
 				{children}
 			</main>
 
 			<div
-				className={ `col-span-3` }
+				className={ `lg:col-span-3` }
 			>
 				<RightSideNav />
 			</div>
